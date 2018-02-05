@@ -1,6 +1,6 @@
 # jsincss-scoped-eval
 
-A scoped eval plugin for jsincss
+A scoped eval plugin for [jsincss](https://github.com/tomhodgins/jsincss)
 
 ## About
 
@@ -79,7 +79,7 @@ This example will use the `jsincss` plugin to load a JS-in-CSS stylesheet making
 It's also possible to write your stylesheets as a separate JavaScript module like this, where you import any helper plugins at the top of the stylesheet:
 
 ```js
-import scope from  'http://unpkg.com/jsincss-scoped-eval/index.js'
+import scope from 'http://unpkg.com/jsincss-scoped-eval/index.js'
 
 export default () => {
 
