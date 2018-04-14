@@ -1,6 +1,6 @@
 {
   "name": "jsincss-scoped-eval",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A scoped eval plugin for jsincss",
   "main": "index.js",
   "scripts": {
