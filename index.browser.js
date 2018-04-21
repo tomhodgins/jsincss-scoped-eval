@@ -1,4 +1,4 @@
-module.exports = (selector, rule) => {
+function scoped(selector, rule) {
 
   return Array.from(document.querySelectorAll(selector))
 
