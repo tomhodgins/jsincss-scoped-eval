@@ -15,8 +15,6 @@ module.exports = (selector, rule) => {
 
       tag.setAttribute(`data-scoped-${attr}`, count)
       styles += `[data-scoped-${attr}="${count}"] { ${evaluated} }\n`
-      count++
-
       return styles
 
     }, '')
